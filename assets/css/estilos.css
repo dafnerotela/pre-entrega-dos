@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* inicio */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 17px;
+    color: #FFF;
+    background-color: #fff
+}
+
+img {
+    max-width: 100%
+}
+
+section {
+    overflow: hidden
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Mohave', sans-serif;
+    position: absolute;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+header nav ul li {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+header nav a:hover:after {
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #F49F0A;
+    position: relative;
+    display: block;
+    margin-top: 4px;
+}
+
+section.hero {
+    background: url('../img/fondo-inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-titles {
+    height: 100vh;
+    background: rgba(255,255,255,0.2);
+    margin: 0 -12px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-titles h2 {
+    font-size: 9rem;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.hero-titles h2 span {
+    display: block;
+    margin-right: 40px;
+    position: relative;
+    text-align: right;
+}
+
+.hero-titles h4 {
+    font-family: 'Mohave';
+    font-size: 2rem;
+}
+
+.hero-titles h4:before {
+    content: '';
+    height: 4px;
+    width: 40px;
+    background: #F49F0A;
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+
+.slide {
+    height: 300px;
+    width: 200px;
+    margin: 0 20px;
+}
+
+figure {
+    margin: 0;
+    height: 300px;
+}
+
+.slide figure img {
+    width: auto;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hero-titles p{
+    font-family: 'Mohave';
+}
+/* reservas  */
+.formularios h1 {
+    margin-top: 100px;
+    margin-right: 150px;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: #004646;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start
+}
+
+.formularios form{
+    padding: 0 40px ;
+    box-sizing: border-box;
+}
+
+form .nombre {
+    position: absolute;
+    border-bottom: 2px solid#004646; 
+    margin: 90px;
+    margin-left: 150px;
+}
+
+.nombre input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.apellido label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #004646;
+    transform: translateY(50%);
+    font-size: 30px;
+    pointer-events: none;
+}
+.apellido input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+form .apellido {
+    position: absolute;
+    border-bottom: 2px solid#004646; 
+    margin: 100px;
+    margin-left: 150px;
+}
+
+
+form .email {
+    position: absolute;
+    border-bottom: 2px solid#004646; 
+    margin: 200px;
+    margin-left: 150px;
+}
+
+.email label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #004646;
+    transform: translateY(50%);
+    font-size: 30px;
+    pointer-events: none;
+}
+
+form .celular {
+    position: absolute;
+    border-bottom: 2px solid#004646; 
+    margin: 250px;
+    margin-left: 150px;
+}
+
+.celular label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #004646;
+    transform: translateY(50%);
+    font-size: 30px;
+    pointer-events: none;
+}
+
+
+form .selecione-un-destino {
+    position: absolute;
+    border-bottom: 2px solid#004646; 
+    margin: 200px;
+    margin-left: 150px;
+}
+
+.selecione-un-destino label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #004646;
+    transform: translateY(50%);
+    font-size: 30px;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navegador */
+.navbar-nav{
+    font-size: 30px;
+    font-family: 'Mohave', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-a-la-derecha{
+    justify-content: flex-end;
+}
+/* contactos */
+.body.body{
+    background: url(../img/contactanos.jpg);
+}
+/* destinos */
+section.destinos h2{
+    font-family: 'Anton', sans-serif;
+    margin-top: 100px;
+    font-weight: 300;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+/* sobre nosotros */
+section.info h1{
+    margin-top: 100px;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    color: #004646;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+section.info p{
+    font-family:'Mohave';
+    font-size: 20px;
+    overflow: hidden;
+    max-width: 30%;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #FFF;
+}
+
+/* footer de contactos */
+.contactos footer {
+    max-width: none;
+}
+
+/* carousel */
+.carousel-destinos{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
